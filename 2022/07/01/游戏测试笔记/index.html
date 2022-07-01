@@ -1,0 +1,222 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>游戏测试笔记 | 虚梦の家</title><meta name="author" content="虚梦false"><meta name="copyright" content="虚梦false"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="[TOC] 游戏测试特性1、游戏情节测试 2、游戏世界平衡测试（经济平衡、能力平衡） 3、游戏文化测试 影响游戏质量的因素1游戏的故事情节2.游戏机制的好坏3.游戏内音频和视频的效果的质量4.美观的视觉风格5.幽默和夸张的体现6.非玩家人物的人工智能水平 游戏开发阶段流程1概念开发阶段2.试生产阶段3.开发阶段4.Alpha阶段（内部测试版）5.Beta阶段（公开测试版）6.生产发布阶段7.补丁阶">
+<meta property="og:type" content="article">
+<meta property="og:title" content="游戏测试笔记">
+<meta property="og:url" content="http://example.com/2022/07/01/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:site_name" content="虚梦の家">
+<meta property="og:description" content="[TOC] 游戏测试特性1、游戏情节测试 2、游戏世界平衡测试（经济平衡、能力平衡） 3、游戏文化测试 影响游戏质量的因素1游戏的故事情节2.游戏机制的好坏3.游戏内音频和视频的效果的质量4.美观的视觉风格5.幽默和夸张的体现6.非玩家人物的人工智能水平 游戏开发阶段流程1概念开发阶段2.试生产阶段3.开发阶段4.Alpha阶段（内部测试版）5.Beta阶段（公开测试版）6.生产发布阶段7.补丁阶">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg">
+<meta property="article:published_time" content="2022-07-01T03:03:38.000Z">
+<meta property="article:modified_time" content="2022-07-01T03:04:18.720Z">
+<meta property="article:author" content="虚梦false">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2022/07/01/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-07-01 11:04:18'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><meta name="generator" content="Hexo 5.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/null" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a></div></div></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">虚梦の家</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">游戏测试笔记</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-01T03:03:38.000Z" title="发表于 2022-07-01 11:03:38">2022-07-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-01T03:04:18.720Z" title="更新于 2022-07-01 11:04:18">2022-07-01</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>[TOC]</p>
+<h1 id="游戏测试特性"><a href="#游戏测试特性" class="headerlink" title="游戏测试特性"></a>游戏测试特性</h1><p>1、游戏情节测试</p>
+<p>2、游戏世界平衡测试（经济平衡、能力平衡）</p>
+<p>3、游戏文化测试</p>
+<h1 id="影响游戏质量的因素"><a href="#影响游戏质量的因素" class="headerlink" title="影响游戏质量的因素"></a>影响游戏质量的因素</h1><p>1游戏的故事情节<br>2.游戏机制的好坏<br>3.游戏内音频和视频的效果的质量<br>4.美观的视觉风格<br>5.幽默和夸张的体现<br>6.非玩家人物的人工智能水平</p>
+<h1 id="游戏开发阶段流程"><a href="#游戏开发阶段流程" class="headerlink" title="游戏开发阶段流程"></a>游戏开发阶段流程</h1><p>1概念开发阶段<br>2.试生产阶段<br>3.开发阶段<br>4.Alpha阶段（内部测试版）<br>5.Beta阶段（公开测试版）<br>6.生产发布阶段<br>7.补丁阶段<br>8.升级阶段</p>
+<h1 id="测试阶段流程"><a href="#测试阶段流程" class="headerlink" title="测试阶段流程"></a>测试阶段流程</h1><p>1.试生产阶段</p>
+<p>2.测试的开题阶段</p>
+<p>3.Alphai测试阶段</p>
+<p>4.Beta测试阶段</p>
+<p>5.最后测试阶段</p>
+<p>6.发布证明阶段</p>
+<p>7.在释放之后的测试阶段</p>
+<h2 id="1、试生产阶段"><a href="#1、试生产阶段" class="headerlink" title="1、试生产阶段"></a>1、试生产阶段</h2><h3 id="计划任务"><a href="#计划任务" class="headerlink" title="计划任务"></a>计划任务</h3><ol>
+<li>决定测试范围</li>
+<li>任命测试主管</li>
+<li>决定阶段验收标准</li>
+<li>参与游戏设计检查</li>
+<li>建立缺陷追踪数据库</li>
+<li>测试计划草稿和测试设计</li>
+</ol>
+<h3 id="零散测试"><a href="#零散测试" class="headerlink" title="零散测试"></a>零散测试</h3><blockquote>
+<p>因为开发很可能没有把所以的功能实现，你得到的是一个一个模块，我们<br>对这些模块进行测试，也叫模块测试</p>
+</blockquote>
+<h2 id="2、测试开题阶段"><a href="#2、测试开题阶段" class="headerlink" title="2、测试开题阶段"></a>2、测试开题阶段</h2><blockquote>
+<p>测试的开题对软件的开发有积极的影响，能更好地定义过程，更好地<br>解决问题，并减少周期时间。</p>
+<p>在这个阶段测试人员需要阅读说明书或文档了解被测试的游戏特征；<br>收集测试所需的设备，文件，和程序；阅读测试等工作</p>
+</blockquote>
+<p><strong>测试开题阶段做好可以减少测试关键路径的规模 如：</strong></p>
+<ol>
+<li>少犯错误。</li>
+<li>减少期性的努力</li>
+<li>所有的努力都会带来失效</li>
+<li>鼓励说出真相</li>
+<li>建设性的讨论，而不是无谓的努力和争论</li>
+</ol>
+<h2 id="3、Alpha测试阶段"><a href="#3、Alpha测试阶段" class="headerlink" title="3、Alpha测试阶段"></a>3、Alpha测试阶段</h2><blockquote>
+<p>这个阶段最忙，项目经理会给你一个alpha版本的游戏，你要证明它违反了你在计划阶段确立的alpha标准<br>在这个阶段，游戏设计是成型了的，测试正式开始了。<br>根据测试入口标准进入测试</p>
+</blockquote>
+<h2 id="4、Beta测试阶段"><a href="#4、Beta测试阶段" class="headerlink" title="4、Beta测试阶段"></a>4、Beta测试阶段</h2><blockquote>
+<p>这个阶段是在alphai测试阶段结束后，我们的关注点是如何让开发出来的<br>游戏更完美。<br>这个阶段是识别和修正剩余bug的时候<br>有些bug是可以忽略的，如果这个bug的修改风险大于缺陷风险，那么我们<br>可以忽略这bug</p>
+</blockquote>
+<h2 id="5、最后测试阶段"><a href="#5、最后测试阶段" class="headerlink" title="5、最后测试阶段"></a>5、最后测试阶段</h2><blockquote>
+<p>到这个阶段，游戏应该处于可以发布的状态了，但这个时候也有可能出现<br>Bug,因为临近项目结束，各类人员都有可能放松，一放松就很大可能出现<br>Bug.</p>
+</blockquote>
+<h2 id="6、发布证明阶段"><a href="#6、发布证明阶段" class="headerlink" title="6、发布证明阶段"></a>6、发布证明阶段</h2><blockquote>
+<p>这个阶段就是我们把游戏发布到各个平台上，如苹果商城，腾讯等，这个<br>时候，这些平台会对你的游戏进行验证。<br>这个时候公司会和平台商议如果出现了bug,哪些必须修复，哪些可以后期<br>升级的时候修复<br>通过平台的验证，那么游戏就发布到对应的平台上了，恭喜你，离成功只<br>差最后一小步</p>
+</blockquote>
+<h2 id="7、在释放之后的测试阶段"><a href="#7、在释放之后的测试阶段" class="headerlink" title="7、在释放之后的测试阶段"></a>7、在释放之后的测试阶段</h2><blockquote>
+<p>游戏必然是要更新升级的，如果游戏在发布后，玩家玩耍游戏，然后发现<br>了少量的bug,那么我们需要用补丁的方式来修改我们的游戏<br>这些补丁也需要我们测试人员进行测试，这时候的测试比较复杂</p>
+</blockquote>
+<h1 id="测试过程"><a href="#测试过程" class="headerlink" title="测试过程"></a>测试过程</h1><p>一个基本的游戏测试过程包括以下步骤：</p>
+<ol>
+<li>规划和设计测试</li>
+<li>准备测试</li>
+<li>运行测试</li>
+<li>报告结果</li>
+<li>修复bug</li>
+<li>返回步骤1</li>
+</ol>
+<h1 id="黑盒测试"><a href="#黑盒测试" class="headerlink" title="黑盒测试"></a>黑盒测试</h1><blockquote>
+<p>什么是黑盒测试？<br>测试人员不通过阅读代码发现6ug,就像正常的玩家一样，去玩游戏，来发<br>现bug<br>游戏是怎么样制作，里面是怎么样运行的，对正常玩家来说就像黑色的盒<br>子一样，所以这样的测试也称为黑盒测试</p>
+</blockquote>
+<h1 id="白盒测试"><a href="#白盒测试" class="headerlink" title="白盒测试"></a>白盒测试</h1><blockquote>
+<p>什么是白盒测试？<br>与黑盒测试相反，白盒测试是直接面对源代码进行测试，通过对代码的测<br>试发现ug,白盒测试对测试人员的要求比较高，需要测试人员懂得代码，<br>懂得编程语言，往往一个游戏综合会用到2种以上的编程语言，所以测试<br>人员也必须了解这些编程语言</p>
+</blockquote>
+<h1 id="需求的定义与分类"><a href="#需求的定义与分类" class="headerlink" title="需求的定义与分类"></a>需求的定义与分类</h1><h2 id="需求的重要性"><a href="#需求的重要性" class="headerlink" title="需求的重要性"></a>需求的重要性</h2><blockquote>
+<p>在软件测试过程中，从需求分析开始到集成测试阶段引入测试手段<br>能发现所有缺陷的80%；系统测试阶段引入测试手段，能发现剩余<br>缺陷中80%的缺陷；在运行维护阶段经过长时间、大量运行软件后<br>能够发现最后剩余的20%缺陷</p>
+</blockquote>
+<h2 id="需求的定义"><a href="#需求的定义" class="headerlink" title="需求的定义"></a>需求的定义</h2><blockquote>
+<p>1.用户解决问题或达到目标所需条件或权能(Capability).<br>2.系统或系统部件要满足合同、标准、规范或其它正式规定文档所需具有的条件或权能。<br>3.一种反映上面(1)或(2)所述条件或权能的文档说明。它包括功能性需求及非功能性需求，非功能性需求对设计和实现提出了限制，比如性能要求，质量标准或者设计限制。</p>
+</blockquote>
+<h2 id="需求的分类"><a href="#需求的分类" class="headerlink" title="需求的分类"></a>需求的分类</h2><blockquote>
+<p>用户需求(user requirement)文档描述了用户使用产品必须要<br>完成的任务，这在使用实例(use case)文档或方案脚本<br>(scenario)说明中予以说明<br>业务需求(business requirement)反映了组织机构或客户对系<br>统、产品高层次的目标要求，它们在项目视图与范围文档中予<br>以说明<br>功能需求(functional requirement)定义了开发人员必须实现<br>的软件功能，使得用户能完成他们的任务，从而满足了业务需<br>求</p>
+</blockquote>
+<h3 id="软件测试需求分析目标"><a href="#软件测试需求分析目标" class="headerlink" title="软件测试需求分析目标"></a>软件测试需求分析目标</h3><blockquote>
+<p>对软件测试要解决的问题进行详细的分析<br>弄清楚参与软件测试活动的相关人员对软件测试活动和交付物<br>的要求<br>包括需要输入什么数据<br>要得到什么结果<br>最后应输出什么等</p>
+</blockquote>
+<h3 id="软件测试需求分析步骤"><a href="#软件测试需求分析步骤" class="headerlink" title="软件测试需求分析步骤"></a>软件测试需求分析步骤</h3><blockquote>
+<p>根据软件开发需求说明书逐条列出软件开发需求，并判断其可测试性<br>形成可测试的描述并界定出测试范围<br>根据质量标准，逐条制定质量需求，即测试通过标准<br>分析测试执行时需要实施的测试类型</p>
+</blockquote>
+<!--可以使用Xmind工具来写需求分析--></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">虚梦false</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2022/07/01/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0/">http://example.com/2022/07/01/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">虚梦の家</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/02/25/%E5%B0%8F%E7%94%B2%E9%B1%BC%E6%B1%87%E7%BC%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><img class="next-cover" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info"></div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/null" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">虚梦false</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95%E7%89%B9%E6%80%A7"><span class="toc-number">1.</span> <span class="toc-text">游戏测试特性</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BD%B1%E5%93%8D%E6%B8%B8%E6%88%8F%E8%B4%A8%E9%87%8F%E7%9A%84%E5%9B%A0%E7%B4%A0"><span class="toc-number">2.</span> <span class="toc-text">影响游戏质量的因素</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E9%98%B6%E6%AE%B5%E6%B5%81%E7%A8%8B"><span class="toc-number">3.</span> <span class="toc-text">游戏开发阶段流程</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5%E6%B5%81%E7%A8%8B"><span class="toc-number">4.</span> <span class="toc-text">测试阶段流程</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E3%80%81%E8%AF%95%E7%94%9F%E4%BA%A7%E9%98%B6%E6%AE%B5"><span class="toc-number">4.1.</span> <span class="toc-text">1、试生产阶段</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1"><span class="toc-number">4.1.1.</span> <span class="toc-text">计划任务</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9B%B6%E6%95%A3%E6%B5%8B%E8%AF%95"><span class="toc-number">4.1.2.</span> <span class="toc-text">零散测试</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E3%80%81%E6%B5%8B%E8%AF%95%E5%BC%80%E9%A2%98%E9%98%B6%E6%AE%B5"><span class="toc-number">4.2.</span> <span class="toc-text">2、测试开题阶段</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3%E3%80%81Alpha%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5"><span class="toc-number">4.3.</span> <span class="toc-text">3、Alpha测试阶段</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4%E3%80%81Beta%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5"><span class="toc-number">4.4.</span> <span class="toc-text">4、Beta测试阶段</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5%E3%80%81%E6%9C%80%E5%90%8E%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5"><span class="toc-number">4.5.</span> <span class="toc-text">5、最后测试阶段</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6%E3%80%81%E5%8F%91%E5%B8%83%E8%AF%81%E6%98%8E%E9%98%B6%E6%AE%B5"><span class="toc-number">4.6.</span> <span class="toc-text">6、发布证明阶段</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7%E3%80%81%E5%9C%A8%E9%87%8A%E6%94%BE%E4%B9%8B%E5%90%8E%E7%9A%84%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5"><span class="toc-number">4.7.</span> <span class="toc-text">7、在释放之后的测试阶段</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95%E8%BF%87%E7%A8%8B"><span class="toc-number">5.</span> <span class="toc-text">测试过程</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95"><span class="toc-number">6.</span> <span class="toc-text">黑盒测试</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95"><span class="toc-number">7.</span> <span class="toc-text">白盒测试</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%9C%80%E6%B1%82%E7%9A%84%E5%AE%9A%E4%B9%89%E4%B8%8E%E5%88%86%E7%B1%BB"><span class="toc-number">8.</span> <span class="toc-text">需求的定义与分类</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9C%80%E6%B1%82%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7"><span class="toc-number">8.1.</span> <span class="toc-text">需求的重要性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9C%80%E6%B1%82%E7%9A%84%E5%AE%9A%E4%B9%89"><span class="toc-number">8.2.</span> <span class="toc-text">需求的定义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9C%80%E6%B1%82%E7%9A%84%E5%88%86%E7%B1%BB"><span class="toc-number">8.3.</span> <span class="toc-text">需求的分类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90%E7%9B%AE%E6%A0%87"><span class="toc-number">8.3.1.</span> <span class="toc-text">软件测试需求分析目标</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90%E6%AD%A5%E9%AA%A4"><span class="toc-number">8.3.2.</span> <span class="toc-text">软件测试需求分析步骤</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/07/01/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0/" title="游戏测试笔记"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="游戏测试笔记"/></a><div class="content"><a class="title" href="/2022/07/01/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0/" title="游戏测试笔记">游戏测试笔记</a><time datetime="2022-07-01T03:03:38.000Z" title="发表于 2022-07-01 11:03:38">2022-07-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/02/25/%E5%B0%8F%E7%94%B2%E9%B1%BC%E6%B1%87%E7%BC%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="无题"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"/></a><div class="content"><a class="title" href="/2022/02/25/%E5%B0%8F%E7%94%B2%E9%B1%BC%E6%B1%87%E7%BC%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="无题">无题</a><time datetime="2022-02-25T12:20:24.267Z" title="发表于 2022-02-25 20:20:24">2022-02-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/02/02/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" title="如何搭建博客"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="如何搭建博客"/></a><div class="content"><a class="title" href="/2021/02/02/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" title="如何搭建博客">如何搭建博客</a><time datetime="2021-02-02T06:06:06.000Z" title="发表于 2021-02-02 14:06:06">2021-02-02</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2021/01/31/hello-world/" title="Hello World">Hello World</a><time datetime="2021-01-31T12:21:50.440Z" title="发表于 2021-01-31 20:21:50">2021-01-31</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By 虚梦false</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
